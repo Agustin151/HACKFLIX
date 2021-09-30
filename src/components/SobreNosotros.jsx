@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import Agus from "../img/Agus.jpg";
 function SobreNosotros() {
   return (
-    <div className=" container mb-5">
+    <div className="mobileAbout container mb-5 ">
       <div>
         <header className="heroA py-5">
-          <div className="container px-4 px-lg-5 my-5">
-            <div className="text-center text-white">
+          <div className="container px-4 px-lg-5 mt-5">
+            <div className="text-center text-white ">
               <h1 className="display-4 fw-bolder">ABOUT US</h1>
             </div>
           </div>

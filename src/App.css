@@ -48,4 +48,10 @@ Link {
   .contactimg {
     width: 20rem;
   }
+  .mobileAbout {
+    text-align: center;
+  }
+}
+.iconhover:hover {
+  color: orange;
 }
