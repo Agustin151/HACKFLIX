@@ -1,0 +1,27 @@
+.cardPeli {
+  border-radius: 10px;
+  background-color: rgba(173, 185, 185, 0.349);
+}
+.p {
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+.h1 {
+  color: rgb(253, 253, 253);
+  font-size: xxx-large;
+  text-shadow: 2px 2px rgb(231, 63, 12);
+}
+
+/* media (max-width: 768px) {
+  . {
+    margin-right: 1rem;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
+  }
+  .contactimg {
+    width: 20rem;
+  }
+}
+ */

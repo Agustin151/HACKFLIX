@@ -1,0 +1,51 @@
+.linkHover:hover {
+  color: rgb(245, 90, 90);
+}
+
+.aqua {
+  color: rgb(245, 90, 90);
+}
+
+.line {
+  border-top: 3px solid rgb(245, 90, 90);
+  margin-top: auto;
+}
+.footer {
+  background-color: rgb(32, 31, 31);
+  text-decoration: none;
+  color: white;
+}
+/* Navbar */
+.nav {
+  border-bottom: 3px solid rgb(245, 90, 90);
+}
+
+/* Sobre nosotros */
+.aboutimg {
+  width: 15rem;
+  height: 17rem;
+}
+Link {
+  color: aliceblue;
+}
+.contacto {
+  background-color: rgba(255, 255, 255, 0.876);
+  border-radius: 10px;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+.contactimg {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .contacto {
+    margin-right: 1rem;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
+  }
+  .contactimg {
+    width: 20rem;
+  }
+}

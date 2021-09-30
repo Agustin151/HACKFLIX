@@ -1,0 +1,53 @@
+.head {
+  padding-top: 100px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 12%,
+      rgba(0, 0, 0, 0.865983893557423) 21%,
+      rgba(54, 52, 52, 0.8099614845938375) 35%,
+      rgba(255, 252, 252, 0) 94%,
+      rgba(0, 0, 0, 0.1825105042016807) 100%
+    ),
+    url("https://images7.alphacoders.com/550/thumb-1920-550629.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(250, 250, 250);
+  font-size: x-large;
+  text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black,
+    0px -1px 0px black;
+}
+
+.seach {
+  border-radius: 10px;
+  background-color: rgba(241, 235, 235, 0.548);
+}
+.star {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  color: rgb(253, 253, 253);
+  font-size: xxx-large;
+  text-shadow: 2px 2px rgb(255, 1, 1);
+}
+
+nav {
+  text-decoration: none;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Link {
+  text-decoration: none;
+  font-size: x-large;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.Link:hover {
+  color: rgb(250, 89, 89);
+  text-decoration: none;
+}
