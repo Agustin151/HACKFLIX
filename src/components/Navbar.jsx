@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 /* import Modal from "./modal"; */
 function Navbar() {
   return (
-    <nav className="nav fixed-top navbar navbar-expand-lg ">
+    <nav className="nav fixed-top navbar navbar-expand-lg p-0">
       <div className="container ">
-        <Link className="Link navbar-brand me-auto" to="/">
+        <Link className="navbar-brand me-auto text-light" to="/">
           HACKFLIX
         </Link>
         <button

@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import Agus from "../img/Agus.jpg";
 function SobreNosotros() {
   return (
-    <div className="mobileAbout container mb-5 ">
+    <div className="mobileAbout container ">
       <div>
-        <header className="heroA py-5">
+        <header className="heroA py-5 ">
           <div className="container px-4 px-lg-5 mt-5">
             <div className="text-center text-white ">
               <h1 className="display-4 fw-bolder">ABOUT US</h1>
@@ -14,16 +14,16 @@ function SobreNosotros() {
         </header>
       </div>
 
-      <div className="row mb-5">
-        <div className="col-md-4 px-4 mb-5 ">
+      <div className="row  styleAbout bg-danger p-2 ">
+        <div className="col-md-4 px-4  ">
           <img
             src={Agus}
             alt="Agus"
             className="aboutimg responsive shadow-lg rounded hover mb-2 ps-0"
           />
         </div>
-        <div className="col-md-8 text-light  ">
-          <h6 className="pt-3 mb-1 text-start ">
+        <div className="col-md-8 text-light">
+          <h6 className="pt-3  text-start ">
             <strong> Agustín Álvarez </strong>
           </h6>
           <p className="text-start ps-5 pe-1 mb-2">Full Stack Developer (JR)</p>

@@ -28,7 +28,7 @@ function MovieDetail() {
   };
 
   return (
-    <div style={fondo} className="pb-3">
+    <div style={fondo} className="pb-3 pt-3">
       <div className="container pt-5  ">
         <div className="row cardPeli p-2 mt-5 ">
           <div className="col-md-6 mt-4">
