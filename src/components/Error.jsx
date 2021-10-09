@@ -1,5 +1,3 @@
-import "./head.css";
-
 function ERROR() {
   return (
     <div className="container mt-5 p-5">

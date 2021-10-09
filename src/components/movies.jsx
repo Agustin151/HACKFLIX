@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./movies.css";
 import axios from "axios";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";

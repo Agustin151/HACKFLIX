@@ -1,4 +1,3 @@
-import "./head.css";
 import { Link } from "react-router-dom";
 
 /* import Modal from "./modal"; */

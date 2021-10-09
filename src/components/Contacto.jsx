@@ -1,5 +1,3 @@
-import "./head.css";
-
 function Contacto() {
   return (
     <div className="container   ">

@@ -14,38 +14,32 @@ function SobreNosotros() {
         </header>
       </div>
 
-      <div className="row  styleAbout bg-danger p-2 ">
-        <div className="col-md-4 px-4  ">
+      <div className="row aboutMobile styleAbout text-center">
+        <div className="col-md text-light ">
           <img
             src={Agus}
             alt="Agus"
-            className="aboutimg responsive shadow-lg rounded hover mb-2 ps-0"
+            className="aboutimg shadow-lg rounded hover mb-2 ps-0"
           />
-        </div>
-        <div className="col-md-8 text-light">
-          <h6 className="pt-3  text-start ">
+          <h6 className="pt-3 ">
             <strong> Agustín Álvarez </strong>
           </h6>
-          <p className="text-start ps-5 pe-1 mb-2">Full Stack Developer (JR)</p>
-
-          <p className="text-start ps-5 pe-4">
+          <p className="">
+            Full Stack Developer (JR) <br />
             ¡Hola! Soy Agustín y tengo 20 años.
-          </p>
-          <p>
+            <br />
             En 2021 participé de un Coding Bootcamp sobre desarrollo web Full
             Stack, el cual fue de las experiencias más intensas de las que he
             participado. Durante 3 meses full-time dediqué más de 600 horas a
             proyectos sobre Node.js, React.js, SQL, MongoDB y Git.
           </p>
-          <div className="text-start ps-4 ">
-            <Link to="">
-              <i class="fab fa-linkedin btn fs-3 ps-4 iconHover"></i>
+
+          <div className="text-start ps-4 mobileProto">
+            <Link to="https://www.linkedin.com/in/agust%C3%ADn-%C3%A1lvarez-rivero-373724219/">
+              <i class="fab fa-linkedin ps-4 mobileProto"></i>
             </Link>
-            <Link to="">
-              <i class="fab fa-github btn fs-3 px-2 iconHover"></i>
-            </Link>
-            <Link to="">
-              <i class="fab fa-twitter btn fs-3 px-2 iconHover"></i>
+            <Link to="https://github.com/Agustin151">
+              <i class="fab fa-github px-2 mobileProto"></i>
             </Link>
           </div>
         </div>

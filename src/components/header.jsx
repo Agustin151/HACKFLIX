@@ -1,4 +1,3 @@
-import "./head.css";
 import ReactStars from "react-rating-stars-component";
 import Navbar from "../components/Navbar";
 /* import Modal from "./modal"; */
