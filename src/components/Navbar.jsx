@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="nav fixed-top navbar navbar-expand-lg p-0">
       <div className="container ">
-        <Link className="navbar-brand me-auto text-light" to="/">
+        <Link className="navTitle navbar-brand me-auto text-light" to="/">
           HACKFLIX
         </Link>
         <button
